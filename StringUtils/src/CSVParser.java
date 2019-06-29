@@ -19,10 +19,8 @@ public class CSVParser {
 		boolean found = false;
 		for(int i =0; i<charArray.length;i++) {
 			char temp= charArray[i];
-			//System.out.print(temp);
 			if(temp=='"') {
 				found = !found;
-				//System.out.println(found);
 			}
 			if(!found) {
 				if(temp!=',') {
