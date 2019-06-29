@@ -1,6 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * @author avram
+ */
+
 public class CSVParser {
 
 	public static void main(String[] args) {
